@@ -10,6 +10,7 @@
     <header>
         <h1 class="hover-effect">Chào Mừng Đến Với Hội Xuân</h1>
     </header>
+    
     <nav>
         <ul>
             <li><a href="#" class="hover-effect">Trang Chủ</a></li>
@@ -17,10 +18,21 @@
             <li><a href="#" class="hover-effect">Liên Hệ</a></li>
         </ul>
     </nav>
+
     <section>
         <h2 class="hover-effect">Các Hoạt Động Hội Xuân</h2>
         <p class="hover-effect">Tham gia ngay các trò chơi dân gian, biểu diễn nghệ thuật và thưởng thức ẩm thực truyền thống!</p>
+        
+        <!-- Thêm hình ảnh Hội Xuân -->
+        <img src="images/hoi-xuan.jpg" alt="Hội Xuân" class="img-hover">
+
+        <!-- Thêm video Hội Xuân -->
+        <video controls class="video-hover">
+            <source src="videos/hoi-xuan.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
     </section>
+
     <footer>
         <p class="hover-effect">Bản quyền © 2025 Hội Xuân</p>
     </footer>
