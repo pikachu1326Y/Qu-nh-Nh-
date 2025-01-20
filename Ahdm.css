@@ -1,0 +1,48 @@
+/* Cấu hình chung */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f3e4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hiệu ứng hover đổi màu và phông chữ */
+.hover-effect {
+    color: #d35400;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+    color: #2ecc71;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Hình ảnh */
+.img-hover {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+/* Video */
+.video-hover {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.video-hover:hover {
+    transform: scale(1.05);
+}
